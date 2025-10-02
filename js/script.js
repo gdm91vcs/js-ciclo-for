@@ -31,3 +31,41 @@ console.log("fuori dall'if", x); */
     console.log("dentro if", x);
 }
 console.log("fuori dall'if", x); */
+
+//JS CICLO - FOR:
+//Esempio:
+/* let x = 5;
+x = x + 1;
+console.log(x); */
+
+//Altro metodo con somma e assegnamento:
+/* let x = 5;
+x++;
+console.log(x); */
+
+//Altro metodo con differenza e assegnamento:
+/* let x = 5;
+x--;
+console.log(x); */
+
+//Altro metodo con aggiunta di un +1 e assegnamento:
+/* let x = 5;
+x++;
+x++;
+x++;
+console.log(x); */
+//avremo 5 + 1 + 1 = 7 e così via stessa cosa con la differenza
+
+// Immaginiamo che mi serva scrivere i numeri e contarli da 1 a 5:
+//normalmente scriveremmo:
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+// cosi facendo abbiamo stampato 5 numeri da 1 a 5 in console ma è una manovra troppo lunga! Immaginiamo di dovere stampare 100 o 1000 numeri!
+//Quindi per velocizzare il tutto utilizzaremo il ciclo FOR:
+for (let x = 1; x <= 20; x++) {
+    console.log(x);
+}
+
